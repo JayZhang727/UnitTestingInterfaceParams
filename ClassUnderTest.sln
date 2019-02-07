@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassUnderTesting.UnitTests", "ClassUnderTest\ClassUnderTesting.UnitTests.csproj", "{73985999-A384-40AD-A20F-C81707356BB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB} = {ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassUnderTesting", "ClassUnderTesting\ClassUnderTesting.csproj", "{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73985999-A384-40AD-A20F-C81707356BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73985999-A384-40AD-A20F-C81707356BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73985999-A384-40AD-A20F-C81707356BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73985999-A384-40AD-A20F-C81707356BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFA5B63-7A56-48DC-A44A-ADEC9687D0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4996297-3948-4A1D-9F17-07FC7AF7567F}
+	EndGlobalSection
+EndGlobal
