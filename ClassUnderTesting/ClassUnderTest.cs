@@ -15,7 +15,7 @@ namespace ClassUnderTesting
         {
             var result = string.Empty;
 
-            //Class A is an implementation of IParamInterface
+            //Class A is an implementation of IParamDataInterface
             var a = new ParamClassA();
             var theParamA = new ParamClass<ParamClassA>(a);
             var listA = new List<IParamInterface>();
@@ -23,7 +23,7 @@ namespace ClassUnderTesting
 
             result = WorkClient.DoWork(listA);
 
-            //Class B is also an implementation of IParamInterface
+            //Class B is also an implementation of IParamDataInterface
             var b = new ParamClassB();
             var theParamB = new ParamClass<ParamClassB>(b);
             var listB = new List<IParamInterface>();
